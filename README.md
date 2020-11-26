@@ -16,4 +16,9 @@
 #### 3- on utilise commit dans le code (décommenter conn.commit()).  dans ce cas on voit que la valeur est changée dans la base de données
 ![Capture3](https://user-images.githubusercontent.com/74276606/100379376-11710c80-3015-11eb-8796-2d036625fa88.PNG)
 
-#### 4- Rollback si il y a des erreurs elle annule les modifications et elle rend l'ancien résultat
+#### 4- "Rollback" si il y a des erreurs elle annule les modifications et elle rend l'ancien résultat 
+![Capture10](https://user-images.githubusercontent.com/74276606/100380080-682b1600-3016-11eb-8c2f-05e3167eb6ae.PNG)
+![Capture11](https://user-images.githubusercontent.com/74276606/100380104-737e4180-3016-11eb-8adf-276093e01ac8.PNG)
+#### on Affiche un message d'erreur
+![Capture12](https://user-images.githubusercontent.com/74276606/100380137-86911180-3016-11eb-8a4f-839eb69de2e8.PNG)
+

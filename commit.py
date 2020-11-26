@@ -10,7 +10,7 @@ cursor.execute('Select * from Fourniseur')
 for row in cursor:
     print(row)
 
-cursor.execute("""UPDATE Fourniseur SET email ='fouadmerad@yahoo.com' WHERE nom ='Fouad' """)
+cursor.execute("""UPDATE Fourniseur SET email ='fouadmerad@gmail.com' WHERE nom ='Fouad' """)
 conn.commit()
 print('\n')
 cursor.execute('Select * from Fourniseur')
